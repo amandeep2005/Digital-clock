@@ -58,12 +58,12 @@ body {
   -webkit-background-clip: text;
 }
 
-#dots {
+#dots{
   color: gray;
   font-size: 60px;
-  margin: 0;
+  margin-right: 25px;
   position: absolute;
-  left: 48%;
+ left:46% ;
 }
 #minutes {
   font-size: 75px;
@@ -76,7 +76,7 @@ body {
 .right-down {
   font-size: 25px;
   position: absolute;
-  left: 54%;
+  left: 50%;
   bottom: 25px;
 }
 

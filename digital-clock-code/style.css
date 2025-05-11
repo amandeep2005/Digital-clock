@@ -14,6 +14,7 @@ body,
 
 body {
   height: 80vh;
+  margin: 10px;
   background-color: #2e2e45;
 }
 
@@ -63,7 +64,7 @@ body {
   font-size: 60px;
   margin-right: 25px;
   position: absolute;
- left:46% ;
+ left:46.3% ;
 }
 #minutes {
   font-size: 75px;
@@ -85,4 +86,25 @@ body {
 }
 #seconds {
   color: white;
+}
+
+@media(max-width:650px){
+    .digital-clock {
+  width: 300px;
+  border-radius: 15px;
+  padding: 30px 50px;}
+
+    #hours {
+  font-size: 55px;}
+
+    #dots{
+  color: gray;
+  font-size: 45px;}
+
+    #minutes {
+  font-size: 55px;}
+
+    .right-down {
+  font-size: 20px;
+}
 }
